@@ -1,0 +1,48 @@
+#my-nav{
+    text-align: center;
+}
+.chatIcon{
+    width: 50px;
+}
+#message-container{
+    /* border: 2px solid red; */
+    max-width: 80%;
+    margin: auto;
+    height: 60vh;
+    background: linear-gradient(0deg, blue, transparent);
+    padding:30px;
+    overflow-y: auto;
+}
+.message{border: 2px solid black;
+    width: auto;
+    max-width: 40%;
+    padding: 5px;
+    display: inline-block;
+    /* background: rgb(120 115 125); */
+    background: rgb(93 26 224); 
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.left{
+    float:left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear: both;
+}
+form#send-container {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+#send-text{
+    width: 74%;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+
+
